@@ -331,73 +331,31 @@ $(document).mouseup(function (e) {
     }
 
     $(all).click(function () {
-        // $('.portfolio-item').not($(allItems)).addClass('hidden')
-        // $(activeCategory).removeClass('category--active')
-        // hiddenElems = allItems
-        // $(hiddenElems).removeClass('hidden')
-        // $(this).addClass('category--active')
-        // $(portfolioPhotos).removeClass('flexed')
         resetItems(allItems, all)
         $(portfolioPhotos).removeClass('flexed')
     })
 
     $(print).click(function () {
-        // $('.portfolio-item').not($(printItems)).addClass('hidden')
-        // $(activeCategory).removeClass('category--active')
-        // hiddenElems = printItems
-        // $(hiddenElems).removeClass('hidden')
-        // $(this).addClass('category--active')
-        // $(portfolioPhotos).addClass('flexed')
         resetItems(printItems, print)
     })
 
     $(identity).click(function () {
-        // $('.portfolio-item').not($(identityItems)).addClass('hidden')
-        // $(activeCategory).removeClass('category--active')
-        // hiddenElems = identityItems
-        // $(hiddenElems).removeClass('hidden')
-        // $(this).addClass('category--active')
-        // $(portfolioPhotos).addClass('flexed')
         resetItems(identityItems, identity)
     })
 
     $(branding).click(function () {
-        // $('.portfolio-item').not($(brandingItems)).addClass('hidden')
-        // $(activeCategory).removeClass('category--active')
-        // hiddenElems = brandingItems
-        // $(hiddenElems).removeClass('hidden')
-        // $(this).addClass('category--active')
-        // $(portfolioPhotos).addClass('flexed')
         resetItems(brandingItems, branding)
     })
 
     $(web).click(function () {
-        // $('.portfolio-item').not($(webItems)).addClass('hidden')
-        // $(activeCategory).removeClass('category--active')
-        // hiddenElems = webItems
-        // $(hiddenElems).removeClass('hidden')
-        // $(this).addClass('category--active')
-        // $(portfolioPhotos).addClass('flexed')
         resetItems(webItems, web)
     })
 
     $(html).click(function () {
-        // $('.portfolio-item').not($(htmlItems)).addClass('hidden')
-        // $(activeCategory).removeClass('category--active')
-        // hiddenElems = htmlItems
-        // $(hiddenElems).removeClass('hidden')
-        // $(this).addClass('category--active')
-        // $(portfolioPhotos).addClass('flexed')
         resetItems(htmlItems, html)
     })
 
     $(wordpress).click(function () {
-        // $('.portfolio-item').not($(wordpressItems)).addClass('hidden')
-        // $(activeCategory).removeClass('category--active')
-        // hiddenElems = wordpressItems
-        // $(hiddenElems).removeClass('hidden')
-        // $(this).addClass('category--active')
-        // $(portfolioPhotos).addClass('flexed')
         resetItems(wordpressItems, wordpress)
     })
 })
